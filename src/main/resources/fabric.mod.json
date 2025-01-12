@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "hanas_paxel_mod",
   "version": "${version}",
-  "name": "Hanas_Paxel_Mod",
+  "name": "Hanas Paxel Mod",
   "description": "Adds Paxels to the game",
   "authors": ["BaLLducked"],
   "contact": {},
