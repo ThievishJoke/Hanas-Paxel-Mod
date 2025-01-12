@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "hanas_paxel_mod",
+  "version": "${version}",
+  "name": "Hanas_Paxel_Mod",
+  "description": "Adds Paxels to the game",
+  "authors": ["BaLLducked"],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/hanas_paxel_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.hanas_paxel_mod.HanasPaxelModClient"
+    ],
+    "main": [
+      "net.hanas_paxel_mod.HanasPaxelMod"
+    ],
+    "fabric-datagen": [
+      "net.hanas_paxel_mod.HanasPaxelModDataGen"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/yW2zQJp4bM"
+      }
+    }
+  }
+}
