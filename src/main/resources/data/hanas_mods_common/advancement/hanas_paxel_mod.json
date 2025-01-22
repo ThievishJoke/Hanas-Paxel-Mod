@@ -1,0 +1,17 @@
+{
+  "display": {
+    "title": "Hanas Paxels",
+    "description": "Adds Paxels",
+    "icon": {
+      "id": "hanas_paxel_mod:diamond_paxel"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "hanas_paxel_mod:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
