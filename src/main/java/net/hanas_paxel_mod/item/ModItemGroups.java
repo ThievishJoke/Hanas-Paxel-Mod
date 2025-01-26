@@ -14,6 +14,7 @@ public class ModItemGroups {
             Identifier.of(HanasPaxelMod.MOD_ID, "paxels"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.paxels"))
                     .icon(() -> new ItemStack(ModItems.STONE_PAXEL)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.WOOD_PAXEL);
                         entries.add(ModItems.STONE_PAXEL);
                         entries.add(ModItems.IRON_PAXEL);
                         entries.add(ModItems.GOLDEN_PAXEL);

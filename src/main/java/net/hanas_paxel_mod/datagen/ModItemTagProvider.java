@@ -19,6 +19,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
         getOrCreateTagBuilder(ModTags.Items.PAXELS)
+                .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
                 .add(ModItems.IRON_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)
@@ -27,6 +28,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
         getOrCreateTagBuilder(ItemTags.CLUSTER_MAX_HARVESTABLES)
+                .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
                 .add(ModItems.IRON_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)
@@ -35,6 +37,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
         getOrCreateTagBuilder(ItemTags.BREAKS_DECORATED_POTS)
+                .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
                 .add(ModItems.IRON_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)
@@ -43,6 +46,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
         getOrCreateTagBuilder(ItemTags.MINING_ENCHANTABLE)
+                .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
                 .add(ModItems.IRON_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)
@@ -51,6 +55,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
         getOrCreateTagBuilder(ItemTags.MINING_LOOT_ENCHANTABLE)
+                .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
                 .add(ModItems.IRON_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)
@@ -59,6 +64,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
         getOrCreateTagBuilder(ItemTags.DURABILITY_ENCHANTABLE)
+                .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
                 .add(ModItems.IRON_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)

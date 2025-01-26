@@ -8,6 +8,10 @@ import net.minecraft.registry.tag.TagKey;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
+    PAXEL_WOOD(64, 4.0F, 1.0F, BlockTags.INCORRECT_FOR_WOODEN_TOOL,  1, () ->
+            Ingredient.ofItems(Items.ACACIA_PLANKS, Items.BAMBOO_PLANKS, Items.BIRCH_PLANKS, Items.CHERRY_PLANKS,
+                    Items.ACACIA_PLANKS, Items.JUNGLE_PLANKS, Items.CRIMSON_PLANKS, Items.WARPED_PLANKS, Items.OAK_PLANKS,
+                    Items.MANGROVE_PLANKS, Items.SPRUCE_PLANKS, Items.DARK_OAK_PLANKS)),
     PAXEL_STONE(250, 4.0F, 1.0F, BlockTags.INCORRECT_FOR_STONE_TOOL,  5, () -> Ingredient.ofItems(Items.COBBLESTONE)),
     PAXEL_IRON(500, 6.0F, 1.0F, BlockTags.INCORRECT_FOR_IRON_TOOL,  14, () -> Ingredient.ofItems(Items.IRON_INGOT)),
     PAXEL_DIAMOND(2000, 8.0F, 1.0F, BlockTags.INCORRECT_FOR_DIAMOND_TOOL,  10, () -> Ingredient.ofItems(Items.DIAMOND)),

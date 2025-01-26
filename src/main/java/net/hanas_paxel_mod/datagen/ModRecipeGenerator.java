@@ -19,6 +19,18 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.WOOD_PAXEL)
+                .pattern("SAP")
+                .pattern(" K ")
+                .pattern(" K ")
+                .input('S', Items.WOODEN_SHOVEL)
+                .input('A', Items.WOODEN_AXE)
+                .input('P', Items.WOODEN_PICKAXE)
+                .input('K', Items.STICK)
+                .criterion(hasItem(Items.WOODEN_SHOVEL), conditionsFromItem(Items.WOODEN_SHOVEL))
+                .criterion(hasItem(Items.WOODEN_AXE), conditionsFromItem(Items.WOODEN_AXE))
+                .criterion(hasItem(Items.WOODEN_PICKAXE), conditionsFromItem(Items.WOODEN_PICKAXE))
+                .offerTo(exporter);
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STONE_PAXEL)
                 .pattern("SAP")
                 .pattern(" K ")
