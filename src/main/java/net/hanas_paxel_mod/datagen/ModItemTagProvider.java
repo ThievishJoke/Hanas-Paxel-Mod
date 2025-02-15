@@ -27,6 +27,33 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.NETHERITE_PAXEL)
         ;
 
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.WOOD_PAXEL)
+                .add(ModItems.STONE_PAXEL)
+                .add(ModItems.IRON_PAXEL)
+                .add(ModItems.DIAMOND_PAXEL)
+                .add(ModItems.GOLDEN_PAXEL)
+                .add(ModItems.NETHERITE_PAXEL)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.WOOD_PAXEL)
+                .add(ModItems.STONE_PAXEL)
+                .add(ModItems.IRON_PAXEL)
+                .add(ModItems.DIAMOND_PAXEL)
+                .add(ModItems.GOLDEN_PAXEL)
+                .add(ModItems.NETHERITE_PAXEL)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.WOOD_PAXEL)
+                .add(ModItems.STONE_PAXEL)
+                .add(ModItems.IRON_PAXEL)
+                .add(ModItems.DIAMOND_PAXEL)
+                .add(ModItems.GOLDEN_PAXEL)
+                .add(ModItems.NETHERITE_PAXEL)
+        ;
+
         getOrCreateTagBuilder(ItemTags.CLUSTER_MAX_HARVESTABLES)
                 .add(ModItems.WOOD_PAXEL)
                 .add(ModItems.STONE_PAXEL)
